@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">IntelliCam</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_home">IntelliCam</string>
+    <string name="title_activity_image_menu">Image Menu</string>
+    <string name="title_activity_attr_screen">Object Attributes</string>
+    <string name="title_activity_viewkb">View Knowledgebase</string>
+    <string name="title_activity_learn_screen">Learn from user</string>
+    <string name="title_activity_splash">IntelliCam</string>
+
+</resources>

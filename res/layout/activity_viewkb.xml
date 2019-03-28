@@ -1,0 +1,72 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="15dp"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:id="@+id/tlTable"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black" >
+
+                <TextView
+                    android:id="@+id/tvKBObject"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text="Object"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/tvKBColor"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text="Color"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/tvKBSize"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text="Size"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/tvKBShape"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text="Shape"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
